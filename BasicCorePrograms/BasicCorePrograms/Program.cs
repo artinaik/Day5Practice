@@ -13,8 +13,10 @@ namespace BasicCorePrograms
             Console.WriteLine("Basic Core Programs");
             //FlipCoin flipCoinobj = new FlipCoin();
             //flipCoinobj.FlipCoinProblem();
-            LeapYear leapYearobj = new LeapYear();
-            leapYearobj.CheckLeap();
+            //LeapYear leapYearobj = new LeapYear();
+            //leapYearobj.CheckLeap();
+            PowerOfTwo powerOfTwoobj = new PowerOfTwo();
+            powerOfTwoobj.FindPower();
             Console.ReadKey();
         }
     }
