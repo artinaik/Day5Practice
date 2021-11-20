@@ -11,8 +11,10 @@ namespace BasicCorePrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Basic Core Programs");
-            FlipCoin flipCoinobj = new FlipCoin();
-            flipCoinobj.FlipCoinProblem();
+            //FlipCoin flipCoinobj = new FlipCoin();
+            //flipCoinobj.FlipCoinProblem();
+            LeapYear leapYearobj = new LeapYear();
+            leapYearobj.CheckLeap();
             Console.ReadKey();
         }
     }
