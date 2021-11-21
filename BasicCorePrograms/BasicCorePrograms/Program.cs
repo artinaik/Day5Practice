@@ -17,8 +17,10 @@ namespace BasicCorePrograms
             //leapYearobj.CheckLeap();
             //PowerOfTwo powerOfTwoobj = new PowerOfTwo();
             //powerOfTwoobj.FindPower();
-            HarmonicNumber harmonicNumberobj = new HarmonicNumber();
-            harmonicNumberobj.FindHarmonic();
+            //HarmonicNumber harmonicNumberobj = new HarmonicNumber();
+            //harmonicNumberobj.FindHarmonic();
+            Factors factorsobj = new Factors();
+            factorsobj.FindFactors();
             Console.ReadKey();
         }
     }
