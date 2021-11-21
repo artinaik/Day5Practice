@@ -27,8 +27,10 @@ namespace BasicCorePrograms
             //swappingobj.SwapNumbers();
             //EvenOdd evenOddobj = new EvenOdd();
             //evenOddobj.FindEvenOdd();
-            Vowel vowelobj = new Vowel();
-            vowelobj.CheckAlphabet();
+            //Vowel vowelobj = new Vowel();
+            //vowelobj.CheckAlphabet();
+            Largest largestobj = new Largest();
+            largestobj.FindLargest();
             Console.ReadKey();
         }
     }
