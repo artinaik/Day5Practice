@@ -25,8 +25,10 @@ namespace BasicCorePrograms
             //divisionobj.FindQuotientAndRem();
             //Swapping swappingobj = new Swapping();
             //swappingobj.SwapNumbers();
-            EvenOdd evenOddobj = new EvenOdd();
-            evenOddobj.FindEvenOdd();
+            //EvenOdd evenOddobj = new EvenOdd();
+            //evenOddobj.FindEvenOdd();
+            Vowel vowelobj = new Vowel();
+            vowelobj.CheckAlphabet();
             Console.ReadKey();
         }
     }
