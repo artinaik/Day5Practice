@@ -21,8 +21,10 @@ namespace BasicCorePrograms
             //harmonicNumberobj.FindHarmonic();
             //Factors factorsobj = new Factors();
             //factorsobj.FindFactors();
-            Division divisionobj = new Division();
-            divisionobj.FindQuotientAndRem();
+            //Division divisionobj = new Division();
+            //divisionobj.FindQuotientAndRem();
+            Swapping swappingobj = new Swapping();
+            swappingobj.SwapNumbers();
             Console.ReadKey();
         }
     }
