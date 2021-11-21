@@ -15,8 +15,10 @@ namespace BasicCorePrograms
             //flipCoinobj.FlipCoinProblem();
             //LeapYear leapYearobj = new LeapYear();
             //leapYearobj.CheckLeap();
-            PowerOfTwo powerOfTwoobj = new PowerOfTwo();
-            powerOfTwoobj.FindPower();
+            //PowerOfTwo powerOfTwoobj = new PowerOfTwo();
+            //powerOfTwoobj.FindPower();
+            HarmonicNumber harmonicNumberobj = new HarmonicNumber();
+            harmonicNumberobj.FindHarmonic();
             Console.ReadKey();
         }
     }
