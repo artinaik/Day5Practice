@@ -19,8 +19,10 @@ namespace BasicCorePrograms
             //powerOfTwoobj.FindPower();
             //HarmonicNumber harmonicNumberobj = new HarmonicNumber();
             //harmonicNumberobj.FindHarmonic();
-            Factors factorsobj = new Factors();
-            factorsobj.FindFactors();
+            //Factors factorsobj = new Factors();
+            //factorsobj.FindFactors();
+            Division divisionobj = new Division();
+            divisionobj.FindQuotientAndRem();
             Console.ReadKey();
         }
     }
