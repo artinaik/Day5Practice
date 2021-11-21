@@ -23,8 +23,10 @@ namespace BasicCorePrograms
             //factorsobj.FindFactors();
             //Division divisionobj = new Division();
             //divisionobj.FindQuotientAndRem();
-            Swapping swappingobj = new Swapping();
-            swappingobj.SwapNumbers();
+            //Swapping swappingobj = new Swapping();
+            //swappingobj.SwapNumbers();
+            EvenOdd evenOddobj = new EvenOdd();
+            evenOddobj.FindEvenOdd();
             Console.ReadKey();
         }
     }
